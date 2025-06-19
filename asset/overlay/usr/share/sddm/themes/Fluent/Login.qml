@@ -49,7 +49,7 @@ SessionManagementScreen {
             placeholderTextColor: "white"
             background: Rectangle {
                 radius: 3
-                border.color: "#E53935"
+                border.color: "#0078D4"
                 border.width: 2
                 color: "#3d3d3d"
             }
@@ -73,7 +73,7 @@ SessionManagementScreen {
             passwordCharacter: config.PasswordFieldCharacter == "" ? "●" : config.PasswordFieldCharacter
             background: Rectangle {
                 radius: 3
-                border.color: "#E53935"
+                border.color: "#0078D4"
                 border.width: 2
                 color: "#3d3d3d"
             }
